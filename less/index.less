@@ -50,19 +50,35 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 62.5%;
 }
+@background-color:#aba2a2;
+@border-color: black;
 
 html, body {
-    height: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-width: 85%;
+	margin: 0 auto;
+	background-image: url("../images/background.jpg");
+	background-color:#e8e8e8;
+	background-repeat: no-repeat ;
+	background-size: cover;
+	background-position: center;
 }
+
 .top-content{
 	height: 50%;
 	display: flex;
 	padding-top: 2%;
 	
 	picture{
+		
 		height: 100%
+	}
+	img{
+		margin-top: 4%;
 	}
 	p{
 		font-size: 3.1vh;
@@ -70,7 +86,7 @@ html, body {
 		padding-top: 4%;
 		margin-left: 10%;
 		border: @border-color;
-		border-style: dotted;
+		border-style: solid;
 		background-color: @background-color;
 	}
 	h1{
@@ -86,10 +102,11 @@ html, body {
 			font-size: 1.5rem;
 			height: 46vh;
 			padding-top: 4%;
-			margin-left: 10%;
+			margin-left: 0%;
 		}
 	}
 }
+
 .bottom-content{
 	display: flex;
 	justify-content: space-around;
@@ -105,26 +122,27 @@ html, body {
 	}//this ends p's
 
 	.qualifications{
-		border: 3px red;
-		border-style: dotted;
+		border: 3px black;
+		border-style: solid;
 		background-color: @background-color;
 		width: 25%;
 	}
 	
 	.education{
-		border: 3px red;
-		border-style: dotted;
+		border: 3px black;
+		border-style: solid;
 		background-color: @background-color;
 		width: 25%;
 	}
 	.work-history{
-		border: 3px red;
-		border-style: dotted;
+		border: 3px black;
+		border-style: solid;
 		background-color: @background-color;
 		width: 25%;
 	}
 	@media(max-width: 500px ){
 		flex-direction: column;
+		margin-top: 30%;
 		.qualifications{
 			border: 3px @border-color;
 			border-style: double;
@@ -138,24 +156,37 @@ html, body {
 			border-style: double;
 			background-color: @background-color;
 			width: 100%;
-			margin-top: 2%;
+			margin-top: 20%;
 		}
 		.work-history{
 			border: 3px @border-color;
 			border-style: double;
 			background-color: @background-color;
 			width: 100%;
-			margin-top: 2%;
+			margin-top: 20%;
 		}
 	}
 }
+
 .links{
 	padding-top: 2%;
 	display: flex;
 	justify-content: space-around;
 	
 	a{
-		color: #D08406;
+		color: black;
 		font-size: 1.3rem;
 	}
+	@media(max-width: 500px) {
+			flex-direction: column;
+			text-align: center;
+
+			a{
+				padding: 3%;
+			}
+	}
+}
+
+li{
+	font-size: 1.2rem;
 }
