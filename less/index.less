@@ -90,3 +90,62 @@ html, body {
 		}
 	}
 }
+.bottom-content{
+	display: flex;
+	justify-content: space-around;
+
+	h2{
+		font-size: 2rem;
+		border-bottom: 1px solid;
+
+	}// this ends h2
+	p{
+		font-size: 1.5rem;
+		padding-top: 2%;
+	}//this ends p's
+
+	.qualifications{
+		border: 3px red;
+		border-style: dotted;
+		background-color: @background-color;
+		width: 25%;
+	}
+	
+	.education{
+		border: 3px red;
+		border-style: dotted;
+		background-color: @background-color;
+		width: 25%;
+	}
+	.work-history{
+		border: 3px red;
+		border-style: dotted;
+		background-color: @background-color;
+		width: 25%;
+	}
+	@media(max-width: 500px ){
+		flex-direction: column;
+		.qualifications{
+			border: 3px @border-color;
+			border-style: double;
+			background-color: @background-color;
+			width: 100%;
+			margin-top: 2%;
+		}
+		
+		.education{
+			border: 3px @border-color;
+			border-style: double;
+			background-color: @background-color;
+			width: 100%;
+			margin-top: 2%;
+		}
+		.work-history{
+			border: 3px @border-color;
+			border-style: double;
+			background-color: @background-color;
+			width: 100%;
+			margin-top: 2%;
+		}
+	}
+}
