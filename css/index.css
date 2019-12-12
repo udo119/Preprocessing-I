@@ -137,8 +137,8 @@ body {
   max-width: 100%;
   max-width: 85%;
   margin: 0 auto;
-  background-image: url("../images/background.jpg");
-  background-color: #e8e8e8;
+  background-image: url(../imgs/pexels-photo-691668.jpeg);
+  background-color: #ebeced;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -161,7 +161,7 @@ body {
   margin-left: 10%;
   border: black;
   border-style: solid;
-  background-color: #aba2a2;
+  background-color: #dbdbdb;
 }
 .top-content h1 {
   font-size: 3rem;
@@ -194,19 +194,19 @@ body {
 .bottom-content .qualifications {
   border: 3px black;
   border-style: solid;
-  background-color: #aba2a2;
+  background-color: #dbdbdb;
   width: 25%;
 }
 .bottom-content .education {
   border: 3px black;
   border-style: solid;
-  background-color: #aba2a2;
+  background-color: #dbdbdb;
   width: 25%;
 }
 .bottom-content .work-history {
   border: 3px black;
   border-style: solid;
-  background-color: #aba2a2;
+  background-color: #dbdbdb;
   width: 25%;
 }
 @media (max-width: 500px) {
@@ -217,21 +217,21 @@ body {
   .bottom-content .qualifications {
     border: 3px black;
     border-style: double;
-    background-color: #aba2a2;
+    background-color: #dbdbdb;
     width: 100%;
     margin-top: 2%;
   }
   .bottom-content .education {
     border: 3px black;
     border-style: double;
-    background-color: #aba2a2;
+    background-color: #dbdbdb;
     width: 100%;
     margin-top: 20%;
   }
   .bottom-content .work-history {
     border: 3px black;
     border-style: double;
-    background-color: #aba2a2;
+    background-color: #dbdbdb;
     width: 100%;
     margin-top: 20%;
   }
