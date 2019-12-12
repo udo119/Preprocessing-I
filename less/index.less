@@ -53,25 +53,22 @@ table {
 	box-sizing: border-box;
 	font-size: 62.5%;
 }
-@background-color:#dbdbdb;
+@background-color: #232020;
 @border-color: black;
 
 html, body {
 	height: 100%;
-	max-width: 100%;
 	max-width: 85%;
 	margin: 0 auto;
 	background-image: url(../imgs/pexels-photo-691668.jpeg);
-	background-color:#ebeced;
 	background-repeat: no-repeat ;
-	background-size: cover;
 	background-position: center;
 }
 
 .top-content{
 	height: 50%;
 	display: flex;
-	padding-top: 2%;
+	padding-top: 3%;
 	
 	picture{
 		
@@ -79,6 +76,7 @@ html, body {
 	}
 	img{
 		margin-top: 4%;
+		border-radius: 2%;
 	}
 	p{
 		font-size: 3.1vh;
@@ -88,10 +86,12 @@ html, body {
 		border: @border-color;
 		border-style: solid;
 		background-color: @background-color;
+		opacity: 85%;
+		color: white;
+		border-radius: 20px;
 	}
 	h1{
 		font-size: 3rem;
-		border-bottom: 1px solid;
 		margin-left: 10%;
 	}
 	@media(max-width: 500px ) {
@@ -126,6 +126,9 @@ html, body {
 		border-style: solid;
 		background-color: @background-color;
 		width: 25%;
+		opacity: 85%;
+		color: #f4f4f4;
+		border-radius: 10px;
 	}
 	
 	.education{
@@ -133,12 +136,18 @@ html, body {
 		border-style: solid;
 		background-color: @background-color;
 		width: 25%;
+		opacity: 85%;
+		color: #f4f4f4;
+		border-radius: 10px;
 	}
 	.work-history{
 		border: 3px black;
 		border-style: solid;
 		background-color: @background-color;
 		width: 25%;
+		opacity: 85%;
+		color: #f4f4f4;
+		border-radius: 10px;
 	}
 	@media(max-width: 500px ){
 		flex-direction: column;
@@ -164,18 +173,24 @@ html, body {
 			background-color: @background-color;
 			width: 100%;
 			margin-top: 20%;
+			margin-bottom: 15%;
 		}
 	}
 }
 
 .links{
-	padding-top: 2%;
+	padding: 2%;
 	display: flex;
 	justify-content: space-around;
+	color: #3a3535;
+	background: #3a3535;
+	border-radius: 11px;
 	
 	a{
-		color: black;
+		color: #ff7315;
 		font-size: 1.3rem;
+		text-decoration: none;
+		border-radius: 11px;
 	}
 	@media(max-width: 500px) {
 			flex-direction: column;
